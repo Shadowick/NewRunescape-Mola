@@ -41,7 +41,7 @@ function borrarTodo() {
 let verMisRegistros = () => {
     misRegistros[0] ? window.location.assign("pages/misregistros.html") :
     Swal.fire(
-        'Mmm...',
+        'Lo sentimos',
         'No hay registros creados',
         'error'
     )

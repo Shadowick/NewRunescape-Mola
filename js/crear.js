@@ -53,11 +53,11 @@ function cargarItem() {
     const itemElegido = dropDownItems.options[dropDownItems.selectedIndex].value;
     const cantidad = document.getElementById("cantidadItem").value;
     if (!itemElegido && cantidad) {
-        Swal.fire('', 'Seleccione un item', 'warning')
+        Swal.fire('NO SE HA PODIDO REALIZAR LA ACCIÓN', 'Seleccione un item', 'warning')
     } else if (itemElegido && !cantidad) {
-        Swal.fire('', 'Escriba una cantidad', 'warning')
+        Swal.fire('NO SE HA PODIDO REALIZAR LA ACCIÓN', 'Escriba una cantidad', 'warning')
     } else if (!itemElegido && !cantidad) {
-        Swal.fire('', 'Seleccione un item y especifique la cantidad', 'warning')
+        Swal.fire('NO SE HA PODIDO REALIZAR LA ACCIÓN', 'Seleccione un item y especifique la cantidad', 'warning')
     } else {
         const fechaCarga = document.getElementById("fechaCarga").value;
         const itemNuevo = [itemElegido, cantidad, fechaCarga];
@@ -96,11 +96,11 @@ function guardarSalir() {
         }, 1500)
 
     } else if (!nombreRegistro && montoInicial) {
-        Swal.fire('', 'Introduzca un nombre para el registro', 'warning')
+        Swal.fire('NO SE HA PODIDO REALIZAR LA ACCIÓN', 'Introduzca un nombre para el registro', 'warning')
     } else if (nombreRegistro && !montoInicial) {
-        Swal.fire('', 'Introduzca el monto del registro', 'warning')
+        Swal.fire('NO SE HA PODIDO REALIZAR LA ACCIÓN', 'Introduzca el monto del registro', 'warning')
     } else {
-        Swal.fire('', 'Introduzca un nombre y un monto para realizar el registro', 'warning')
+        Swal.fire('NO SE HA PODIDO REALIZAR LA ACCIÓN', 'Introduzca un nombre y un monto para realizar el registro', 'warning')
     }
 }
 
