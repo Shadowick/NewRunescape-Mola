@@ -92,7 +92,7 @@ function guardarSalir() {
         }
         );
         setTimeout(() => {
-            location.assign("misRegistros.html");
+            location.assign("misregistros.html");
         }, 1500)
 
     } else if (!nombreRegistro && montoInicial) {
