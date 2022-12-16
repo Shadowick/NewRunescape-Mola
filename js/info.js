@@ -3,7 +3,7 @@ const listaItemsRunescape = JSON.parse(localStorage.getItem("itemsRunescape"));
 let contenidoTabla = "";
 let tablaInfo = document.getElementById("tablaInfo");
 const tierList = ["Sin rango", "T10", "T20", "T30", "T40", "T50", "T60", "T65", "T70", "T75", "T80", "T85", "T90","T95"];
-const tipoItem = [null,"Armadura","Arma cuerpo a cuerpo","Arma mágica","Arma a distancia"];
+const tipoItem = [null,"Armadura","Cuerpo a cuerpo","Mágica","A distancia"];
 for (let key of Object.keys(listaItemsRunescape)) {
     tablaInfo.innerHTML += `<tr>
     <td>${listaItemsRunescape[key]["nombre"]}</td>

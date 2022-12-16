@@ -16,11 +16,15 @@
     </header>
     <div class="container-fluid">
         <div id="panelItems">
-            <div class="crearRegistro">
-                <label for="nombreRegistro">Nombre</label><input type="text" id="nombreRegistro"
-                    placeholder="Introduzca el nombre">
-                <label for="montoInicial">Cantidad de Oro Inicial</label><input type="number" id="montoInicial"
-                    placeholder="Introduzca oro" min="0">
+            <div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Nombre</span>
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1" id="nombreRegistro">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Cantidad de oro inicial</span>
+                    <input type="number" class="form-control" placeholder="Oro inicial" aria-label="Oro inicial" aria-describedby="basic-addon1" id="montoInicial" min="1">
+                </div>
             </div>
             <div class="container-fluid">
                 <table class="table table-bordered border-primary">

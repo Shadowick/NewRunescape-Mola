@@ -1,7 +1,7 @@
-fetch("js/listaItems.json") // Lista de cultivos en formato JSON
+fetch("js/listaItems.json")
     .then((resp) => resp.json())
     .then(function (data) {
-        localStorage.setItem("itemsRunescape", JSON.stringify(data)); // Se guarda en local storage
+        localStorage.setItem("itemsRunescape", JSON.stringify(data));
     });
 let registroActual = 0;
 let misRegistros = localStorage.getItem("misRegistros") ? JSON.parse(localStorage.getItem("misRegistros")) : [];

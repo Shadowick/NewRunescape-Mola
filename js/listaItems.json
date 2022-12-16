@@ -111,8 +111,8 @@
         "tipo": "Armadura Piernas",
         "valor":250000,
         "tier": [
-            8,
-            9
+            3,
+            5
         ],
         "tipoItem": [
             1
@@ -123,8 +123,8 @@
         "tipo": "Arma",
         "valor": 4800000,
         "tier": [
-            8,
-            9
+            6,
+            7
         ],
         "tipoItem": [
             4
@@ -135,8 +135,8 @@
         "tipo": "Arma",
         "valor": 1500000,
         "tier": [
-            8,
-            9
+            10,
+            11
         ],
         "tipoItem": [
             2
@@ -147,8 +147,8 @@
         "tipo": "Arma",
         "valor":880000,
         "tier": [
-            8,
-            9
+            1,
+            3
         ],
         "tipoItem": [
             3
@@ -159,8 +159,8 @@
         "tipo": "Arma",
         "valor": 260000,
         "tier": [
-            8,
-            9
+            4,
+            6
         ],
         "tipoItem": [
             2
@@ -171,8 +171,8 @@
         "tipo": "Arma",
         "valor": 142000,
         "tier": [
-            8,
-            9
+            7,
+            8
         ],
         "tipoItem": [
             4
@@ -183,8 +183,8 @@
         "tipo": "Arma",
         "valor":150000,
         "tier": [
-            8,
-            9
+            12,
+            13
         ],
         "tipoItem": [
             4
@@ -195,8 +195,8 @@
         "tipo": "Arma",
         "valor":360000,
         "tier": [
-            8,
-            9
+            6,
+            7
         ],
         "tipoItem": [
             3
@@ -207,8 +207,8 @@
         "tipo": "Arma",
         "valor":387000,
         "tier": [
-            8,
-            9
+            2,
+            4
         ],
         "tipoItem": [
             4

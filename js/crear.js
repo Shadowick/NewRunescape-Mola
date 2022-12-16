@@ -1,4 +1,3 @@
-//Declaraciones iniciales
 const DateTime = luxon.DateTime;
 const botonesItems = document.getElementById("botonesItems");
 const panelItems = document.getElementById("panelItems");
@@ -80,8 +79,11 @@ function guardarSalir() {
         miRegistro[2] = montoInicial;
         miRegistro[3] = parseInt(montoInicial);
         for (let i = 0; i < miRegistro[4].length; i++) {
-            miRegistro[3] -= ((listaItemsRunescape[miRegistro[4][i][0]]["valor"]) - (miRegistro[4][i][1]));
+            miRegistro[3] -= ((listaItemsRunescape[miRegistro[4][i][0]]["valor"]) * (miRegistro[4][i][1]));
         }
+        
+        /* miRegistro[3] Es el monto inicial ingresado, (listaItemsRunescape[miRegistro[4][i][0]]["valor"]) es el valor del item seleccionado, y (miRegistro[4][i][1]) es la cantidad de items que voy a "debitar" de la cuenta */
+
         miRegistro[3] = parseInt(miRegistro[3]);
         localStorage.setItem("misRegistros", JSON.stringify(misRegistros));
         Swal.fire({
