@@ -25,7 +25,7 @@
     "3": {
         "nombre": "Item 3",
         "tipo": "Armadura",
-        "valor":5000,
+        "valor":50,
         "tier": [
             3,
             4

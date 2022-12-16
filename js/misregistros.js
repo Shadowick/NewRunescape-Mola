@@ -1,4 +1,4 @@
-let misRegistros = JSON.parse(localStorage.getItemta("misRegistros"));
+let misRegistros = JSON.parse(localStorage.getItem("misRegistros"));
 let checksEliminar, botonesModificar;
 let tablaRegistros = document.getElementById("tablaMisRegistros");
 actualizarTabla();

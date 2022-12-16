@@ -3,13 +3,13 @@ fetch("js/listaItems.json") // Lista de cultivos en formato JSON
     .then(function (data) {
         localStorage.setItem("itemsRunescape", JSON.stringify(data)); // Se guarda en local storage
     });
-let individuoActual = 0;
+let registroActual = 0;
 let misRegistros = localStorage.getItem("misRegistros") ? JSON.parse(localStorage.getItem("misRegistros")) : [];
 
 function CrearRegistro() {
     misRegistros.push([misRegistros[misRegistros.length - 1] ? misRegistros[misRegistros.length - 1][0] + 1 : 1, "", 0, undefined, []]);
-    individuoActual = misRegistros.length - 1;
-    localStorage.setItem("individuoActual", JSON.stringify(individuoActual));
+    registroActual = misRegistros.length - 1;
+    localStorage.setItem("registroActual", JSON.stringify(registroActual));
     localStorage.setItem("misRegistros", JSON.stringify(misRegistros));
     window.location.assign("pages/crear.html");
 }

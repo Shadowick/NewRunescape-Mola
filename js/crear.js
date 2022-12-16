@@ -80,8 +80,7 @@ function guardarSalir() {
         miRegistro[2] = montoInicial;
         miRegistro[3] = parseInt(montoInicial);
         for (let i = 0; i < miRegistro[4].length; i++) {
-            /* miRegistro[3] -= (listaItemsRunescape[miRegistro[4][i][0]]["distanciaLineas"] * listaItemsRunescape[miRegistro[4][i][0]]["distanciaPlantas"] / 10000 * miRegistro[4][i][1]); */
-            miRegistro[3] -= (miRegistro[4][i][1] - listaItemsRunescape[miRegistro[4][i][0]]["valor"]);
+            miRegistro[3] -= ((listaItemsRunescape[miRegistro[4][i][0]]["valor"]) - (miRegistro[4][i][1]));
         }
         miRegistro[3] = parseInt(miRegistro[3]);
         localStorage.setItem("misRegistros", JSON.stringify(misRegistros));
