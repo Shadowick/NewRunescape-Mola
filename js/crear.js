@@ -98,9 +98,9 @@ function guardarSalir() {
     } else if (!nombreRegistro && montoInicial) {
         Swal.fire('', 'Introduzca un nombre para el registro', 'warning')
     } else if (nombreRegistro && !montoInicial) {
-        Swal.fire('', 'Introduzca el área del registro', 'warning')
+        Swal.fire('', 'Introduzca el monto del registro', 'warning')
     } else {
-        Swal.fire('', 'Introduzca un nombre y una área para realizar el registro', 'warning')
+        Swal.fire('', 'Introduzca un nombre y un monto para realizar el registro', 'warning')
     }
 }
 

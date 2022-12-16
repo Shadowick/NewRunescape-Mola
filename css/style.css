@@ -7,7 +7,6 @@
 }
 
 body {
-    background-color: rgb(250, 242, 233);
     font-family: "Nunito Sans", sans-serif;
     min-height: 100vh;
 }
@@ -21,8 +20,12 @@ button {
     font-family: "Nunito Sans", sans-serif;
 }
 
-.divPrincipal {
-    background-image: url("../img/fondo_recortado.png");
+.imgFondoIndex {
+    background-image: url("../img/runescape fondo.jpg");
+}
+
+/* .divPrincipal {
+    background-image: url("../img/runescape fondo.jpg");
     background-repeat: repeat-y;
     background-size:100%;
     width: 60%;
@@ -37,7 +40,7 @@ button {
     box-shadow: 0 0 10px 2px lightgray;
     border-radius: 2rem;
     padding: 2rem;
-}
+} */
 
 .divSecundario{
     min-height: 50vh;
@@ -47,6 +50,11 @@ button {
     flex-grow: 2;
     flex-direction: column;
     background-image: none;
+}
+
+.imgLogo {
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .logoSec {
@@ -76,25 +84,6 @@ button {
     align-items: center;
 }
 
-.botonIndex {
-    margin: 0.5rem 0;
-    width: 8rem;
-    height: 2rem;
-    background-color: rgba(119, 119, 173, 0.293);
-    font-size: 1rem;
-    color: rgb(18, 56, 21);
-    border: 1px outset rgb(41, 121, 33);
-}
-.botonIndex:hover {
-    background-color: rgba(119, 119, 173, 0.847);
-    color: white;
-    cursor: pointer;
-}
-
-.botonIndex:active {
-    border: 2px inset rgb(41, 121, 33);
-}
-
 #panelItems, #panelMisRegistros, .divInformacion {
     min-height: 60vh;
     display: flex;
@@ -107,27 +96,6 @@ button {
     font-size: 1.3rem;
     padding: 1rem;
 }
-
-.btnRegistro, .botonCargar, .botonInfo {
-    margin: 0.5rem 0;
-    width: 8rem;
-    height: 2rem;
-    background-color: rgba(119, 119, 173, 0.293);
-    font-size: 0.8rem;
-    color: rgb(18, 56, 21);
-    border: 1px outset rgb(41, 121, 33);
-}
-
-.btnRegistro:hover, .botonCargar:hover, .botonInfo:hover {
-    background-color: rgba(119, 119, 173, 0.847);
-    color: white;
-    cursor: pointer;
-}
-
-.btnRegistro:active, .botonCargar:active, .botonInfo:active {
-    border: 2px inset rgb(41, 121, 33);
-}
-
 
 #agregarItem {
     display: none;
@@ -158,7 +126,7 @@ select {
     width: 100px;
 }
 
-table {
+/* table {
     border-collapse: collapse; 
 }
 
@@ -178,7 +146,7 @@ tbody tr:hover {
     background-color: rgb(56, 171, 209);
     color: white;
 }
-
+ */
 #pieTablaItems {
     display: none;
 }
@@ -195,10 +163,6 @@ tbody tr:hover {
 @media (max-width: 500px) {
     .divPrincipal {
         width: 100%;
-    }
-    .botonIndex {
-        width: 70%;
-        font-size: 2rem;
     }
     td {
         padding: 0.25rem;
@@ -217,16 +181,17 @@ tbody tr:hover {
     width: 1rem;
 }
 
-.controlesInfo {
+/* .controlesInfo {
     text-align:center;
-}
+} */
 
 footer {
     justify-self: flex-end;
 }
 
 footer div img {
-    width: 98vw;
+    width: 100%;
+    height: auto;
 }
 
 .tablaInfo {
