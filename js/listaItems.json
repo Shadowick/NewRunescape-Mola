@@ -1,0 +1,229 @@
+{
+    "1": {
+        "nombre": "Item 1",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            0
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "2": {
+        "nombre": "Item 2",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            11,
+            12
+        ],
+        "tipoItem": [
+            3
+        ]
+    },
+    "3": {
+        "nombre": "Item 3",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            3,
+            4
+        ],
+        "tipoItem": [
+            4
+        ]
+    },
+    "4": {
+        "nombre": "Item 4",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            2,
+            3
+        ],
+        "tipoItem": [
+            4
+        ]
+    },
+    "5": {
+        "nombre": "Item 5",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            12,
+            13
+        ],
+        "tipoItem": [
+            2
+        ]
+    },
+    "6": {
+        "nombre": "Item 6",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            3,
+            4
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "7": {
+        "nombre": "Item 7",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            4,
+            5
+        ],
+        "tipoItem": [
+            3
+        ]
+    },
+    "8": {
+        "nombre": "Item 8",
+        "tipo": "Armadura",
+        "valor":50000,
+        "tier": [
+            3,
+            4
+        ],
+        "tipoItem": [
+            2
+        ]
+    },
+    "9": {
+        "nombre": "Item 9",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "10": {
+        "nombre": "Item 10",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "11": {
+        "nombre": "Item 11",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "12": {
+        "nombre": "Item 12",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "13": {
+        "nombre": "Item 13",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "14": {
+        "nombre": "Item 14",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "15": {
+        "nombre": "Item 15",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "16": {
+        "nombre": "Item 16",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "17": {
+        "nombre": "Item 17",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "18": {
+        "nombre": "Item 18",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "19": {
+        "nombre": "Item 19",
+        "tipo": "Armadura",
+        "valor":5000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    }
+}

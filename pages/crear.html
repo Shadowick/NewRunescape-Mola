@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Crear Registro</title>
+</head>
+
+<body class="bodySec">
+    <div class="logoSec">
+        <img src="../img/logo_sin_fondo.png" alt="">
+    </div>
+    <div class="divSecundario">
+        <div id="panelItems">
+            <div class="crearRegistro">
+                <label for="nombreRegistro">Nombre</label><input type="text" id="nombreRegistro"
+                    placeholder="Introduzca el nombre">
+                <label for="montoInicial">Cantidad de Monedas de Oro</label><input type="number" id="montoInicial"
+                    placeholder="Introduzca oro" min="0">
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Cantidad</th>
+                            <th>Fecha de carga</th>
+                            <th>Modificar</th>
+                            <th>Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaItems"></tbody>
+                    <tfoot id="pieTablaItems">
+                        <td></td>
+                        <td><select id="dropDownItems"></select></td>
+                        <td><input type="number" id="cantidadItem" class="inputAgregar" placeholder="0" min="1"></td>
+                        <td><input type="date" id="fechaCarga" class="inputAgregar"></td>
+                        <td></td>
+                        <td></td>
+                    </tfoot>
+                </table>
+            </div>
+            <div id="botonesItems">
+                <button class="btnRegistro" id="btnAgregarItem">Agregar Item</button>
+                <button class="btnRegistro" id="guardarSalir">Guardar y salir</button>
+                <button class="btnRegistro" id="btnEliminarItem">Eliminar selección</button>
+                <button class="btnRegistro" id="btnCancelarCrear">Salir</button>
+            </div>
+            <div id="agregarItem">
+                <div class="botonesAgregarItem">
+                    <button id="btnCargarItem" class="botonCargar">Cargar Item</button>
+                    <button id="btnListo" class="botonCargar">Listo</button>
+                </div>
+            </div>
+        </div>
+        <div id="modificarItem">
+            <div class="seccionModificarItem">
+                <div class="inputsModificar">
+                    <select id="dropDownModificarItems"></select>
+                    <label for="cantidadItemModificar">Cantidad de items comprados</label>
+                    <input type="number" id="cantidadItemModificar" min="1">
+                    <label for="fechaCargaModificar">Fecha de carga</label>
+                    <input type="date" id="fechaCargaModificar">
+                </div>
+                <div class="controlesModificar">
+                    <button class="btnRegistro" id="btnModificarItem">Guardar</button>
+                    <button class="btnRegistro" id="btnCancelarModificacion">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <img src="../img/footer.png" alt="">
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.0.1/build/global/luxon.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/crear.js"></script>
+</body>
+
+</html>
